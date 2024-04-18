@@ -11,7 +11,7 @@ class SpeechOut:
         self.engine.setProperty("rate", 200)  # Set the speed to 200
 
         self.root = tk.Tk()
-        self.root.title("Ilana")
+        self.root.title("A9 Demo")
         self.root.geometry("1500x1350")
         self.root.configure(background="white")
 
@@ -57,4 +57,4 @@ class SpeechOut:
 
 if __name__ == "__main__":
     out = SpeechOut()
-    out.write("Hello my name is Ilana")
+    out.write("Hello World")
