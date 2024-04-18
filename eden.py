@@ -7,7 +7,7 @@ import asyncio
 class EdenAPI:
     # init
     def __init__(self, model="gpt-3.5-turbo-instruct"):
-        self.api_key = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDhkMWI5MmQtYTI4Zi00NGFiLWJjNjAtN2VjYTdkNWFhNzRhIiwidHlwZSI6ImZyb250X2FwaV90b2tlbiJ9.1w1BFrf4ALFVTuxarxVuI7bqfRRq4_xwbLy2JHbgNQQ"
+        self.api_key = "Bearer {api_key}"
         self.url = "https://api.edenai.run/v2/text/generation"
         self.provider = "openai"
         self.model = model
