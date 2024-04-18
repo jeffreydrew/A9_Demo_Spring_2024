@@ -1,0 +1,5 @@
+httpx
+asyncio
+pyttsx3
+tkinter
+speech_recognition

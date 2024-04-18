@@ -1,0 +1,22 @@
+{
+  "open brave": ["brave-browser", ""],
+  "open chrome": ["google-chrome-stable", ""],
+  "open canvas": ["brave-browser https://elearning.ufl.edu/", ""],
+  "open my drive": ["brave-browser https://drive.google.com/drive/starred", ""],
+  "open email": ["thunderbird", ""],
+  "open your base model": ["brave-browser https://chat.openai.com/?model=text-davinci-002-render-sha", ""],
+  "open a terminal to my desktop": ["cd ~/Desktop ; gnome-terminal", ""],
+  "close": ["./terminate.sh", ""],
+  "open github": ["brave-browser https://github.com/", ""],
+  "open stackoverflow": ["brave-browser https://stackoverflow.com/", ""],
+  "open vscode": ["ci", ""],
+  "open documents": ["nautilus Documents", ""],
+  "reboot": ["reboot", ""],
+  "intruder alert": ["./scripts/sleep.py", ""],
+  "reparo": ["reparo", ""],
+  "play": ["./scripts/play_music.py", ""],
+  "web search": ["./scripts/google_search.py", ""],
+  "type": ["./scripts/type_assistant.py", ""],
+  "open": ["./scripts/open.py", ""],
+  "reset wifi driver": ["wifi", ""]
+}
