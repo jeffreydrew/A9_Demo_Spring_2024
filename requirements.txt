@@ -1,5 +1,6 @@
 httpx
 asyncio
 pyttsx3
-tkinter
-speech_recognition
+tk
+SpeechRecognition
+PyAudio
